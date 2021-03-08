@@ -1,4 +1,4 @@
-# TensorFlow Lite Python object detection examole
+# TensorFlow Lite Python object detection example
 This example uses [TensorFlow Lite](https://tensorflow.org/lite) to perform real-time object detection using images
 in a directory. It draws a bounding box around each detected
 object in a the image (when the object score is above a given threshold). This image is then saved in a separate folder.
