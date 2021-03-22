@@ -33,6 +33,11 @@ cd detect_person
 # The script takes an argument specifying where you want to save the model files
 bash download.sh /tmp
 ```
+Add the location of the detect_person.py script to your python environment, for example
+```
+export PATH=$PATH:/path
+```
+where "/path" is the path to the detect_person.py. You can also add this to your .bashrc.
 
 ## Run the example
 Go to the directory containing the images you wish to analyze. Then type:
